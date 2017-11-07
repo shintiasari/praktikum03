@@ -8,6 +8,17 @@ int main(){
 	cout<<"Input Bilangan : ";cin>>x;
 	cout<<""<<endl;
 	if (x < 0){
+		cout<<"yang anda input adalah bilangan negatif"<<endl;
+	}
+	
+	else if (x>0)
+	{
+		cout<<"yang anda input adalah bilangan positif"<<endl;
+	}
+	else
+	
+		cout<<"yang anda input adalah bilangan nol "<<endl;
+
+	return 0;
 		
 	}
-}
